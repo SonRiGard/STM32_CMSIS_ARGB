@@ -1,0 +1,13 @@
+--cpu Cortex-M0
+".\objects\system_stm32f0xx.o"
+".\objects\startup_stm32f031x6.o"
+".\objects\main.o"
+".\objects\rcc.o"
+".\objects\systick.o"
+".\objects\tim1.o"
+".\objects\dma.o"
+".\objects\adc.o"
+--strict --scatter ".\Objects\Test1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Test1.map" -o .\Objects\Test1.axf

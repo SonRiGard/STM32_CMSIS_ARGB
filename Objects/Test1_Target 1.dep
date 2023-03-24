@@ -1,0 +1,107 @@
+Dependencies for Project 'Test1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\CMSIS\src\system_stm32f0xx.c)(0x61A946A3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./CMSIS/inc -I ./Code -I ./Code/inc -I ../ARGB-I./RTE/_Target_1-IC:/Users/RiGardson/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/RiGardson/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F031x6 -D_RTE_-o ./objects/system_stm32f0xx.o -MD)
+I (CMSIS\inc\stm32f0xx.h)(0x61A94B78)
+I (CMSIS\inc\stm32f031x6.h)(0x61F6C685)
+I (CMSIS\inc\core_cm0.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\inc\cmsis_version.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_compiler.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_armclang.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\inc\system_stm32f0xx.h)(0x61A946A3)
+F (.\CMSIS\inc\cmsis_armcc.h)(0x61A946A5)()
+F (.\CMSIS\inc\cmsis_armclang.h)(0x61A946A5)()
+F (.\CMSIS\inc\cmsis_compiler.h)(0x61A946A5)()
+F (.\CMSIS\inc\cmsis_gcc.h)(0x61A946A5)()
+F (.\CMSIS\inc\cmsis_version.h)(0x61A946A5)()
+F (.\CMSIS\inc\core_cm0.h)(0x61A946A5)()
+F (.\CMSIS\inc\core_cm0plus.h)(0x61A946A5)()
+F (.\CMSIS\inc\stm32f0xx.h)(0x61A94B78)()
+F (.\CMSIS\inc\stm32f031x6.h)(0x61F6C685)()
+F (.\CMSIS\inc\system_stm32f0xx.h)(0x61A946A3)()
+F (.\CMSIS\src\startup_stm32f031x6.s)(0x61A946A4)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/RiGardson/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/RiGardson/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F031x6 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f031x6.o)
+F (.\Code\src\main.c)(0x620606F9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./CMSIS/inc -I ./Code -I ./Code/inc -I ../ARGB-I./RTE/_Target_1-IC:/Users/RiGardson/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/RiGardson/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F031x6 -D_RTE_-o ./objects/main.o -MD)
+I (Code\inc\main.h)(0x62056317)
+I (CMSIS\inc\stm32f0xx.h)(0x61A94B78)
+I (CMSIS\inc\stm32f031x6.h)(0x61F6C685)
+I (CMSIS\inc\core_cm0.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\inc\cmsis_version.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_compiler.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_armclang.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\inc\system_stm32f0xx.h)(0x61A946A3)
+I (..\ARGB\RCC.h)(0x61F42AA5)
+I (..\ARGB\SYSTick.h)(0x61F482C1)
+I (..\ARGB\TIM1.h)(0x61F7027C)
+I (..\ARGB\DMA.h)(0x62056839)
+I (..\ARGB\ADC.h)(0x62041260)
+F (.\Code\inc\main.h)(0x62056317)()
+F (.\RCC.c)(0x61F5656C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./CMSIS/inc -I ./Code -I ./Code/inc -I ../ARGB-I./RTE/_Target_1-IC:/Users/RiGardson/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/RiGardson/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F031x6 -D_RTE_-o ./objects/rcc.o -MD)
+I (..\ARGB\RCC.h)(0x61F42AA5)
+I (CMSIS\inc\stm32f0xx.h)(0x61A94B78)
+I (CMSIS\inc\stm32f031x6.h)(0x61F6C685)
+I (CMSIS\inc\core_cm0.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\inc\cmsis_version.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_compiler.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_armclang.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\inc\system_stm32f0xx.h)(0x61A946A3)
+F (.\RCC.h)(0x61F42AA5)()
+F (.\SYSTick.h)(0x61F482C1)()
+F (.\SYSTick.c)(0x61F6BF2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./CMSIS/inc -I ./Code -I ./Code/inc -I ../ARGB-I./RTE/_Target_1-IC:/Users/RiGardson/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/RiGardson/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F031x6 -D_RTE_-o ./objects/systick.o -MD)
+I (..\ARGB\SYSTick.h)(0x61F482C1)
+I (CMSIS\inc\stm32f0xx.h)(0x61A94B78)
+I (CMSIS\inc\stm32f031x6.h)(0x61F6C685)
+I (CMSIS\inc\core_cm0.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\inc\cmsis_version.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_compiler.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_armclang.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\inc\system_stm32f0xx.h)(0x61A946A3)
+F (.\TIM1.c)(0x620559B2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./CMSIS/inc -I ./Code -I ./Code/inc -I ../ARGB-I./RTE/_Target_1-IC:/Users/RiGardson/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/RiGardson/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F031x6 -D_RTE_-o ./objects/tim1.o -MD)
+I (..\ARGB\TIM1.h)(0x61F7027C)
+I (CMSIS\inc\stm32f0xx.h)(0x61A94B78)
+I (CMSIS\inc\stm32f031x6.h)(0x61F6C685)
+I (CMSIS\inc\core_cm0.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\inc\cmsis_version.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_compiler.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_armclang.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\inc\system_stm32f0xx.h)(0x61A946A3)
+F (.\TIM1.h)(0x61F7027C)()
+F (.\DMA.c)(0x620606E4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./CMSIS/inc -I ./Code -I ./Code/inc -I ../ARGB-I./RTE/_Target_1-IC:/Users/RiGardson/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/RiGardson/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F031x6 -D_RTE_-o ./objects/dma.o -MD)
+I (..\ARGB\DMA.h)(0x62056839)
+I (CMSIS\inc\stm32f0xx.h)(0x61A94B78)
+I (CMSIS\inc\stm32f031x6.h)(0x61F6C685)
+I (CMSIS\inc\core_cm0.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\inc\cmsis_version.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_compiler.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_armclang.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\inc\system_stm32f0xx.h)(0x61A946A3)
+F (.\DMA.h)(0x62056839)()
+F (.\ADC.c)(0x62056839)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS -I ./CMSIS/inc -I ./Code -I ./Code/inc -I ../ARGB-I./RTE/_Target_1-IC:/Users/RiGardson/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/RiGardson/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F031x6 -D_RTE_-o ./objects/adc.o -MD)
+I (..\ARGB\ADC.h)(0x62041260)
+I (CMSIS\inc\stm32f0xx.h)(0x61A94B78)
+I (CMSIS\inc\stm32f031x6.h)(0x61F6C685)
+I (CMSIS\inc\core_cm0.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (CMSIS\inc\cmsis_version.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_compiler.h)(0x61A946A5)
+I (CMSIS\inc\cmsis_armclang.h)(0x61A946A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A81CE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60354E14)
+I (CMSIS\inc\system_stm32f0xx.h)(0x61A946A3)
+F (.\ADC.h)(0x62041260)()

@@ -1,0 +1,6 @@
+#include "stm32f0xx.h"
+#include "RCC.h"
+#include "SYSTick.h"
+#include "TIM1.h"
+#include "DMA.h"
+#include "ADC.h"
